@@ -54,6 +54,7 @@ Preset plist files contain the key bindings for each of the mapped common gamepa
 Look here: https://eastmanreference.com/complete-list-of-applescript-key-codes
 Or use this list where the first numeric value is the integer in the presets to map the equivalent button:
 (for example 100 is triggering button F8)
+
 0 = 0x00 = ANSI_A
 1 = 0x01 = ANSI_S
 2 = 0x02 = ANSI_D
