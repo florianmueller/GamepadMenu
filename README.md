@@ -48,11 +48,14 @@ Please note the Xbox 360 controller requires a driver to work on OS X. I'm using
 ## Presets
 
 Preset plist files contain the key bindings for each of the mapped common gamepad controls. Use a string value to bind it to a keyboard character, or a number to bind it to a `CGKeyCode`.
+Preset info from WoWMapper for Windows supporting consoleport addon:
+https://github.com/topher-au/WoWmapper/blob/master/WoWmapper/Keybindings/Defaults.cs
+https://github.com/topher-au/WoWmapper/blob/master/WoWmapper/Controllers/DS4/DS4Controller.cs
 
 ## Buttons Table Overview
 
 Look here: https://eastmanreference.com/complete-list-of-applescript-key-codes
-Or use this list where the first numeric value is the integer in the presets to map the equivalent button:
+...Or use this list where the first numeric value is the integer in the presets to map the equivalent button:
 (for example 100 is triggering button F8)
 ```
 0 = 0x00 = ANSI_A
@@ -173,6 +176,22 @@ Or use this list where the first numeric value is the integer in the presets to 
 124 = 0x7C = RightArrow
 125 = 0x7D = DownArrow
 126 = 0x7E = UpArrow
+```
+
+## Gamepad Button Codes naming conventions
+```
+Button 0 = X (Square on PS controller)
+Button 1 = A (X on on PS controller)
+Button 2 = B (Circle on PS controller)
+Button 3 = Y (Triangle on PS controller)
+Button 4 = LB (L1)
+Button 5 = RB (R1)
+Button 6 = LT (L2)
+Button 7 = RT (R2)
+Button 8 = Back (Select)
+Button 9 = Start
+Button 10 = Left stick button (L3)
+Button 11 = Right stick button (R3)
 ```
 
 ## Wishlist
