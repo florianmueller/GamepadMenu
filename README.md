@@ -6,6 +6,12 @@ When trying to play Broforce (yes, [Broforce](http://www.broforcegame.com)) on a
 
 Of course, with those limitations, it's hard to get your bro on, so I decided to make my own button mapper. It is aimed exclusively at gamepads and, while focussed on getting Nimbus' pressure sensitive buttons working, supports other gamepads as well.
 
+## Updated FORK
+update for more keys and building towards all controller keys integration and support for [WoW consoleport](http://consoleport.net/home/) addon.
+* profile support for newer PlayStation DualShock 4 Controllers with signature: Vendor=0x54c & Product=0x9cc
+* presets for wow consoleport addon
+* added more infos regarding AppleScript button keycodes. Validate buttons via https://keycode.info
+
 ## Features
 
 * Uses device profiles to map each supported gamepad device to a common control set, which a preset maps to specific keyboard presses.
